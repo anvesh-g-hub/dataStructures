@@ -29,6 +29,6 @@ Linked List
     &nbsp;&nbsp;&nbsp; elementAtGivenPosition <br/>
     &nbsp;&nbsp;&nbsp; insertANodeAtGivenPosition <br/>
     
-Searching
-    1) Linear Search <br/>
-    2) Binary Search <br/>        
+Searching <br/>
+1) Linear Search <br/>
+2) Binary Search <br/>        
