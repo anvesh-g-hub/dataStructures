@@ -15,3 +15,16 @@ Absract Data Types
     &nbsp;&nbsp;&nbsp;    6) find pair of numbers whose sum is equal to given number <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PairOfNumbersWhoseSumIsEqualToGivenNumber.java <br/>
     2) 2D Array <br/>
+    
+Linked List
+1) Single Linked List <br/>
+    Operations <br/>
+    &nbsp;&nbsp;&nbsp; displayDataInTheList <br/>
+    &nbsp;&nbsp;&nbsp; insertDataInTheBeginning <br/>
+    &nbsp;&nbsp;&nbsp; sizeOfTheList <br/>
+    &nbsp;&nbsp;&nbsp; searchForAnElement <br/>
+    &nbsp;&nbsp;&nbsp; dataInLastNode <br/>
+    &nbsp;&nbsp;&nbsp; dataInSecondLastNode <br/>
+    &nbsp;&nbsp;&nbsp; predecessorOfAGivenData <br/>
+    &nbsp;&nbsp;&nbsp; elementAtGivenPosition <br/>
+        
