@@ -142,4 +142,40 @@ public class SingleLinkedList {
     }
 
 
+    public void insertANodeAtGivenPosition(Node inputnode,int position,int data){
+        Node newNode=new Node(data);
+        int counter=1;
+        boolean isNodeInserted=false;
+        Node node=inputnode;
+        while(node.link!=null){
+            if(position-1==0){
+                newNode.link=inputnode;
+                inputnode=newNode;
+                isNodeInserted=true;
+                break;
+            }
+            if(counter==position-1){
+                newNode.link=node.link;
+                node.link=newNode;
+                isNodeInserted=true;
+                break;
+            }
+            counter++;
+            node=node.link;
+        }
+        if(!isNodeInserted && counter==position-1){
+            insertDataAtTheEndOfList(data);
+            isNodeInserted=true;
+        }
+
+        if(isNodeInserted){
+            System.out.println("Node inserted at position "+ position);
+            displayElementsInTheList(inputnode);
+        }else{
+            System.out.println("Invalid position entered");
+        }
+
+    }
+
+
 }

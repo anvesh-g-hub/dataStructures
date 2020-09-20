@@ -27,4 +27,5 @@ Linked List
     &nbsp;&nbsp;&nbsp; dataInSecondLastNode <br/>
     &nbsp;&nbsp;&nbsp; predecessorOfAGivenData <br/>
     &nbsp;&nbsp;&nbsp; elementAtGivenPosition <br/>
+    &nbsp;&nbsp;&nbsp; insertANodeAtGivenPosition <br/>
         

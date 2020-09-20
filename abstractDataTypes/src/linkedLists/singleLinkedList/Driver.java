@@ -6,14 +6,15 @@ public class Driver {
     public static void main(String[] args) {
         SingleLinkedList sll = insertDataIntoTheList();
         displayDataInTheList(sll);
-//        SingleLinkedList sll2=insertDataInTheBeginning();
-//        displayDataInTheList(sll2);
+        SingleLinkedList sll2=insertDataInTheBeginning();
+        displayDataInTheList(sll2);
         sizeOfTheList(sll);
         searchForAnElement(sll);
         sll.dataInLastNode(sll.getStart());
         sll.dataInSecondLastNode(sll.getStart());
         predecessorOfAGivenData(sll);
         elementAtGivenPosition(sll);
+        insertANodeAtGivenPosition(sll);
 
 
     }
@@ -72,6 +73,16 @@ public class Driver {
         System.out.print("Enter position for which you want to know the data: ");
         int searchPosition=sc.nextInt();
         sll.elementAtGivenPosition(sll.getStart(),searchPosition);
+    }
+
+    public static void insertANodeAtGivenPosition(SingleLinkedList sll){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the position at which you want to insert data: ");
+        int pos=sc.nextInt();
+        System.out.print("Enter data you wwant to insert at position "+pos+" : ");
+        int data=sc.nextInt();
+        sll.insertANodeAtGivenPosition(sll.getStart(),pos,data);
+
     }
 
 
