@@ -1,5 +1,5 @@
 # dataStructures
-Absract Data Types 
+Abstract Data Types 
 1) Arrays <br/>
     a) 1D Array <br/> 
     &nbsp;&nbsp;&nbsp; 1) get Maximum element from array <br/>
@@ -28,4 +28,7 @@ Linked List
     &nbsp;&nbsp;&nbsp; predecessorOfAGivenData <br/>
     &nbsp;&nbsp;&nbsp; elementAtGivenPosition <br/>
     &nbsp;&nbsp;&nbsp; insertANodeAtGivenPosition <br/>
-        
+    
+Searching
+    1) Linear Search <br/>
+    2) Binary Search <br/>        
