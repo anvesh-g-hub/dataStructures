@@ -31,4 +31,7 @@ Linked List
     
 Searching <br/>
 1) Linear Search <br/>
-2) Binary Search <br/>        
+2) Binary Search <br/>
+
+Sorting <br/>
+1) Selection Sort <br/>        
