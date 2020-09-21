@@ -20,7 +20,7 @@ Linked List
 1) Single Linked List <br/>
     Operations <br/>
     &nbsp;&nbsp;&nbsp; displayDataInTheList <br/>
-    &nbsp;&nbsp;&nbsp; insertDataInTheBeginning <br/>
+    &nbsp;&nbsp;&nbsp; insertDataInTheBeginning <br/>   
     &nbsp;&nbsp;&nbsp; sizeOfTheList <br/>
     &nbsp;&nbsp;&nbsp; searchForAnElement <br/>
     &nbsp;&nbsp;&nbsp; dataInLastNode <br/>
