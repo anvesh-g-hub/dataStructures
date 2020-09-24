@@ -1,4 +1,5 @@
 import bubble.BubbleSort;
+import insertion.InsertionSort;
 import selection.SelectionSort;
 
 public class Driver {
@@ -7,8 +8,11 @@ public class Driver {
 //        SelectionSort selectionSort=new SelectionSort();
 //        int[] sortedArr=selectionSort.sort(arr);
 
-        BubbleSort bs=new BubbleSort();
-        int[] sortedArr=bs.sort(arr);
+//        BubbleSort bs=new BubbleSort();
+//        int[] sortedArr=bs.sort(arr);
+
+        InsertionSort is=new InsertionSort();
+        int[] sortedArr=is.sort(arr);
 
         for(int s:sortedArr){
             System.out.print(s+" ");

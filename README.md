@@ -36,3 +36,4 @@ Searching <br/>
 Sorting <br/>
 1) Selection Sort <br/>        
 2) Bubble Sort <br/>        
+2) Insertion Sort <br/>        
